@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="h-100">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BURGER JÁ</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  
+  <link href="style.css" rel="stylesheet" type="text/css" />  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</head>
+
+<body class="h-100 d-flex flex-column justify-content-between">
+  <header class="sticky-top">
+    <nav class="navbar navbar-expand-sm navbar-light px-3" style="background-color: #FFEFCF; color:#ff7a00;">
+      
+      <img src="./img/burger.png" class= "p-2"alt="Burger Já">
+      <h3>BURGER JÁ</h3>
+
+      
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navegacao2">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Lista de navegação -->
+      <div class="collapse navbar-collapse" id="navegacao2">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link active">
+              Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="sobre.html" class="nav-link">
+              Sobre nós
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="cardapio.html" class="nav-link">
+              Cardápio
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+              Contato
+            </a>
+
+            <!--  Lista de elementos do menu dropdown -->
+            <div class="dropdown-menu "style="background-color: #FFEFCF; color:#ff7a00;">
+              <a target="_blank" href="./contato.html" class="dropdown-item text-white">
+                <i class="bi bi-person-lines-fill"></i>
+                 Reservas
+              </a>
+              <a target="_blank" href="https://instagram.com" class="dropdown-item text-white">
+                <i class="bi bi-instagram"></i>
+                 Instagram
+              </a>
+              <a target="_blank" href="https://wa.me/5531999999999" class="dropdown-item text-white">
+                <i class="bi bi-whatsapp"></i> WhatsApp
+              </a>
+            </div>
+            
+          </li>
+          
+        </ul>
+        
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    
+    <section class="container">
+      <div class="row my-4">
+        <div class="col-md-12">
+          <h2 style=" color:#ff7a00; font-weight: bold;">
+            Conheça nosso cardápio
+          </h2>
+        </div>
+      </div>
+      <div class="row">
+          <h2 style=" color:#D44000; font-weight: bold;">Hamburguers</h2>
+        <div class="col-md-4 shadow p-3 mb-5 rounded">
+          <div class="card">
+            <img src="https://cdn.pixabay.com/photo/2019/11/20/21/21/burger-4641173_960_720.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title "style=" color:#ff7a00; font-weight: bold;">Burger Já</h5>
+              <h6>Hamburguer suculento, queijo prato, alface, tomate e molho da casa</h6>
+              <p class="card-text">R$30,00</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 shadow p-3 mb-5 rounded">
+          <div class="card">
+            <img src="https://cdn.pixabay.com/photo/2018/06/18/20/25/burger-3483290_960_720.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title "style=" color:#ff7a00; font-weight: bold;">Burger Duplo</h5>
+              <h6>Hamburguer duplo, queijo prato, alface, tomate e molho da casa</h6>
+
+              <p class="card-text">R$35,00</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 shadow p-3 mb-5 rounded">
+          <div class="card">
+            <img src="https://cdn.pixabay.com/photo/2017/08/12/18/59/snack-2635035_960_720.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title "style=" color:#ff7a00; font-weight: bold;">Cheeseburger</h5>
+              <h6>Hamburguer suculento, queijo prato e ketchup. Opção infantil</h6>
+              <p class="card-text">R$20,00</p>
+              
+            </div>
+            </div>
+        </div>
+        <h2 style=" color:#D44000; font-weight: bold;">Bebidas</h2>
+        <div class="col-md-4 shadow p-3 mb-5 rounded">
+          <div class="card">
+            <img src="https://cdn.pixabay.com/photo/2017/06/24/23/41/beer-2439237_960_720.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title "style=" color:#ff7a00; font-weight: bold;">Chopp da casa</h5>
+              <p class="card-text">R$8,00</p>
+              
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-4 shadow p-3 mb-5 rounded">
+          <div class="card">
+            <img src="https://cdn.pixabay.com/photo/2019/06/17/20/13/soft-drink-4280835_960_720.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title "style=" color:#ff7a00; font-weight: bold;">Refri</h5>
+              <p class="card-text">R$6,00</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 shadow p-3 mb-5 rounded">
+          <div class="card">
+            <img src="https://cdn.pixabay.com/photo/2017/08/05/01/33/bottle-2582012_960_720.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title "style=" color:#ff7a00; font-weight: bold;">Água Mineral</h5>
+              <p class="card-text">R$4,00</p>
+             
+            </div>
+          </div>
+        </div>
+            <h2 style=" color:#D44000; font-weight: bold;">Sobremesas</h2>
+        <div class="col-md-4 shadow p-3 mb-5 rounded">
+          <div class="card">
+            <img src="https://cdn.pixabay.com/photo/2016/12/26/16/09/bowl-1932375_960_720.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title "style=" color:#ff7a00; font-weight: bold;">Sundae</h5>
+              <h6>Consulte sabores</h6>
+              <p class="card-text">R$15,00</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 shadow p-3 mb-5 rounded">
+          <div class="card">
+            <img src="https://cdn.pixabay.com/photo/2017/06/23/16/54/dessert-2435266_960_720.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title "style=" color:#ff7a00; font-weight: bold;">Petit Gateau</h5>
+              <h6>Consulte sabores</h6>
+              <p class="card-text">R$20,00</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 shadow p-3 mb-5 rounded">
+          <div class="card">
+            <img src="https://cdn.pixabay.com/photo/2016/11/22/18/52/cake-1850011_960_720.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title "style=" color:#ff7a00; font-weight: bold;">Torta do Dia</h5>
+              <h6>Consulte sabores</h6>
+              <p class="card-text">R$20,00</p>
+              
+            </div>
+          </div>
+        </div>
+      </div> 
+        
+        
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer  mt-auto py-3"style="background-color: #FFEFCF; color:#ff7a00;">
+    <div class="container text-center pt-2">
+      <span class=" fst-italic">
+        Todos os direitos reservados
+      </span>
+    </div>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
