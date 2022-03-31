@@ -16,7 +16,7 @@
 
 <body class="h-100 d-flex flex-column justify-content-between">
   <header class="sticky-top">
-    <nav class="navbar navbar-expand-sm navbar-light px-3 " style="background-color: #FFEFCF; color:#ff7a00;">
+    <nav class="navbar navbar-expand-sm navbar-light px-3" style="background-color: #FFEFCF; color:#ff7a00;">
       
       <img src="./img/burger.png" class= "p-2"alt="Burger Já">
       <h3>BURGER JÁ</h3>
@@ -27,7 +27,7 @@
       </button>
 
       <!-- Lista de navegação -->
-      <div class="collapse navbar-collapse" id="navegacao2">
+      <div class="collapse navbar-collapse" id="navegacao2" style=" max-width: 100%; padding:50px ;">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
             <a href="index.html" class="nav-link active">
@@ -39,11 +39,6 @@
               Sobre nós
             </a>
           </li>
-          <li class="nav-item">
-            <a href="cardapio.html" class="nav-link">
-              Cardápio
-            </a>
-          </li>
           <li class="nav-item dropdown">
             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
               Contato
@@ -51,20 +46,26 @@
 
             <!--  Lista de elementos do menu dropdown -->
             <div class="dropdown-menu "style="background-color: #FFEFCF; color:#ff7a00;">
-                <a target="_blank" href="./contato.html" class="dropdown-item text-white">
+                <a  href="./contato.html" class="dropdown-item text-white">
                     <i class="bi bi-person-lines-fill"></i>
                      Reservas
                   </a>
                   <a target="_blank" href="https://instagram.com" class="dropdown-item text-white">
                     <i class="bi bi-instagram"></i>
-                     <span>Instagram</span> 
+                     Instagram
                   </a>
                   <a target="_blank" href="https://wa.me/5531999999999" class="dropdown-item text-white">
-                    <i class="bi bi-whatsapp"></i> <span>WhatsApp</span> 
+                    <i class="bi bi-whatsapp"></i> WhatsApp
                   </a>
             </div>
             
           </li>
+          <li class="nav-item">
+            <a href="cardapio.html" class="nav-link">
+              Cardápio
+            </a>
+          </li>
+          
           
         </ul>
         
@@ -79,25 +80,25 @@
           FAÇA SUA RESERVA
         </p>
         <p class="p-2 fs-5 fw-bold text-sm-start"style="color:#FFEFCF;">aberto de quarta a sábado <br> das 11:00 às 23:00</p>
-        
-            <div class="row d-flex align-items-sm-center text-center" style="max-width: 40%;">
-              <div class="col-md-12">
-                <h2 style=" color:#ff7a00; font-weight: bold;">
-                  Reserva
-                </h2>
-        
-                <form onsubmit="autenticar(event)" class="d-flex flex-column justify-content-between align-items-sm-center m-4" style="text-align: center;">
+
+        <main class="container" style="max-width:60%; background-color:#FFEFCF">
+    <div class="row" >
+      <div class="col-md-12">
+        <h2  style=" color:#D44000; font-weight: bold;">
+          Reserva
+        </h2>
+        <form onsubmit="autenticar(event)" class="d-flex flex-column justify-content-between align-items-center m-4" style="text-align: center; ">
                   <div class="mb-3">
-                    <label for="inputNome" class="form-label">Nome:</label>
+                    <label for="inputUsuario" class="form-label" style="color: #864000">Nome:</label>
                     <input type="text" class="form-control" id="inputNome" required autocomplete="off">
                   </div>
                   
                   <div class="mb-3">
-                    <label for="inputEmail" class="form-label">Email:</label>
+                    <label for="inputSenha" class="form-label" style="color: #864000">Email:</label>
                     <input type="email" class="form-control" id="inputEmail" required>
                   </div>
                   <div class="mb-3">
-                    <label for="inputQtd" class="form-label">Quantidade de pessoas:</label>
+                    <label for="inputSenha" class="form-label" style="color: #864000">Quantidade de pessoas:</label>
                     <input type="number" class="form-control" id="inputQtd" required>
                   </div>
                   
@@ -105,6 +106,15 @@
                     <button type="submit" style=" color:#ff7a00; font-weight: bold;">Enviar</button>            
                   </div>
                 </form>
+
+        
+        
+      </div>
+    </div>
+        
+            
+        
+                
                 
               </div>
             </div>

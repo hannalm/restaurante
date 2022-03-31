@@ -1,54 +1,56 @@
 
-
-.nav-link, .dropdown-item{
-    color: #864000 !important;
+*{
+    max-width: 1400px;
   }
+  .nav-link, .dropdown-item{
+      color: #864000 !important;
+    }
+    
+    .active{
+      background-color: #FF7A00;
+      border-radius: 5px;
+      color: #864000
+    }
+    
+    .nav-link:hover:not(.active), .dropdown-item:hover{
+      background-color: #FFEFCF;
+      border-radius: 5px;
+      color: #D44000 !important;
+    }
+    
+    .bg-imagem{
+      height: 50vw;
+      background-image: url(https://cdn.pixabay.com/photo/2018/06/18/20/25/burger-3483290_960_720.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .imgContato{
+      height: 50vw;
+      background-image: url(https://cdn.pixabay.com/photo/2016/11/18/14/05/brick-wall-1834784_960_720.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .imgSobre{    
+      background-color: #864000;
+      background-repeat: no-repeat;
+      background-size: cover;
+      max-width: 100%%;
+      align-items: center;
+    }
   
-  .active{
-    background-color: #FF7A00;
-    border-radius: 5px;
-    color: #864000
-  }
-  
-  .nav-link:hover:not(.active), .dropdown-item:hover{
-    background-color: #FFEFCF;
-    border-radius: 5px;
-    color: #D44000 !important;
-  }
-  
-  .bg-imagem{
-    height: 50vw;
-    background-image: url(https://cdn.pixabay.com/photo/2018/06/18/20/25/burger-3483290_960_720.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .imgContato{
-    height: 50vw;
-    background-image: url(https://cdn.pixabay.com/photo/2016/11/18/14/05/brick-wall-1834784_960_720.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .imgSobre{    
-    background-color: #864000;
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: 90%;
-    align-items: center;
-  }
-
-  
-  
-  .bg-imagem p{
-    font-size: 4vw;
-    text-shadow: 4px 4px 8px #864000;
-  }
-  
-  
-  .imgContato{
-      max-width: 90%;
-      background-color: #D44000;
-  }
-  span{
-    color: #864000;
-    text-shadow: 3px 3px 10px #f1f1f1;
-  }
+    
+    
+    .bg-imagem p{
+      font-size: 4vw;
+      text-shadow: 4px 4px 8px #864000;
+    }
+    
+    
+    .imgContato{
+        max-width: 90%;
+        background-color: #D44000;
+    }
+    span{
+      color: #864000;
+      text-shadow: 3px 3px 10px #f1f1f1;
+    }
