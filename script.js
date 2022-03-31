@@ -12,10 +12,10 @@ function autenticar(event){
   event.preventDefault()
 
   
-  if(inputNome.value != null && inputEmail.value !=null && inputQtd.value !=null){
+  
     myTextModal.className = 'text-success'
     myTextModal.innerText = 'Reserva enviada!!!'
-  } 
+   
   myButtonModal.click()
 }
 

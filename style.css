@@ -7,15 +7,15 @@
     }
     
     .active{
-      background-color: #FF7A00;
+      background-color: #D44000;
       border-radius: 5px;
       color: #864000
     }
     
     .nav-link:hover:not(.active), .dropdown-item:hover{
-      background-color: #FFEFCF;
+      background-color: #FF7A00;
       border-radius: 5px;
-      color: #D44000 !important;
+      color: #864000 !important;
     }
     
     .bg-imagem{

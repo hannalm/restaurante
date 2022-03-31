@@ -27,20 +27,20 @@
       </button>
 
       <!-- Lista de navegação -->
-      <div class="collapse navbar-collapse" id="navegacao2" style=" max-width: 100%; padding:50px ;">
+      <div class="collapse navbar-collapse" id="navegacao2" style=" max-width: 100%; padding:10px ;">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a href="index.html" class="nav-link active">
+            <a href="index.html" class="nav-link">
               Home
             </a>
           </li>
           <li class="nav-item">
-            <a href="sobre.html" class="nav-link">
+            <a href="sobre.html" class="nav-link ">
               Sobre nós
             </a>
           </li>
           <li class="nav-item dropdown">
-            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+            <a href="#" class="nav-link active dropdown-toggle" data-bs-toggle="dropdown">
               Contato
             </a>
 
@@ -71,84 +71,67 @@
         
       </div>
     </nav>
-  </header>
-
-  <main>
-    <div class="d-flex align-items-sm-center text-center text-white bg-imagem imgContato">
-      <div class="container-fluid">
-        <p class="p-2 fw-bold"style="color:#d44000;">
-          FAÇA SUA RESERVA
-        </p>
-        <p class="p-2 fs-5 fw-bold text-sm-start"style="color:#FFEFCF;">aberto de quarta a sábado <br> das 11:00 às 23:00</p>
-
-        <main class="container" style="max-width:60%; background-color:#FFEFCF">
-    <div class="row" >
-      <div class="col-md-12">
-        <h2  style=" color:#D44000; font-weight: bold;">
-          Reserva
-        </h2>
-        <form onsubmit="autenticar(event)" class="d-flex flex-column justify-content-between align-items-center m-4" style="text-align: center; ">
-                  <div class="mb-3">
-                    <label for="inputUsuario" class="form-label" style="color: #864000">Nome:</label>
-                    <input type="text" class="form-control" id="inputNome" required autocomplete="off">
-                  </div>
-                  
-                  <div class="mb-3">
-                    <label for="inputSenha" class="form-label" style="color: #864000">Email:</label>
-                    <input type="email" class="form-control" id="inputEmail" required>
-                  </div>
-                  <div class="mb-3">
-                    <label for="inputSenha" class="form-label" style="color: #864000">Quantidade de pessoas:</label>
-                    <input type="number" class="form-control" id="inputQtd" required>
-                  </div>
-                  
-                  <div class="d-grid gap-2">
-                    <button type="submit" style=" color:#ff7a00; font-weight: bold;">Enviar</button>            
-                  </div>
-                </form>
-
-        
-        
-      </div>
-    </div>
-        
-            
-        
-                
-                
-              </div>
+  </header>    
+    <main >
+        <div class="d-flex align-items-sm-center flex-column text-center text-white bg-imagem imgContato">
+            <div class="container-fluid">
+              <p class="p-2 fw-bold"style="color:#d44000;">
+                FAÇA SUA RESERVA
+              </p>
+              <p class="p-2 fs-5 fw-bold text-sm-start"style="color:#FFEFCF;">aberto de quarta a sábado <br> das 11:00 às 23:00</p>
             </div>
-            
-            <div class="row mt-2">
-              <div class="col-md-12">
-                
-        
-                <!--  Modal        -->
-                <div class="modal" tabindex="-1" id="myModal">
-                  <div class="modal-dialog">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title text-primary">Alerta</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                      </div>
-                      <div class="modal-body">
-                        <p id="myTextModal">                  
-                        </p>
-                      </div>
-                    </div>
-                  </div>
+            <div class="container" style="max-width:40%; background-color:rgb(255, 239, 207, 0.8)">
+                <div class="row ">
+                <div class="col-md-12">
+                    <h2  style=" color:#D44000; font-weight: bold;">Reserva</h2>
+                    
+                    <form onsubmit="autenticar(event)">
+                        <div class="mb-3">
+                            <label for="inputNome" class="form-label" style="color: #864000">Nome:</label>
+                            <input type="text" class="form-control" id="inputNome" required autocomplete="off">
+                        </div>    
+
+                        <div class="mb-3">
+                            <label for="inputEmail" class="form-label" style="color: #864000">Email:</label>
+                            <input type="email" class="form-control" id="inputEmail" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="inpuQtd" class="form-label" style="color: #864000">Quantidade de pessoas:</label>
+                            <input type="number" class="form-control" id="inputQtd" required>
+                        </div>     
+
+                        <div class="d-grid gap-2">
+                            <button type="submit" style=" color:#ff7a00; font-weight: bold;">Enviar</button>            
+                        </div>
+                    </form>      
                 </div>
-                
-              </div>
+                </div>             
+                        
+                <div class="row mt-2">
+        <div class="col-md-12">
+            <!--  Modal        -->
+            <div class="modal" tabindex="-1" id="myModal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title text-primary">Alerta</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p id="myTextModal"></p>
+                        </div>
+                    </div>
+                </div>
             </div>
+                    
+        </div>
+                </div>
+            </div>
+        </div>
           
-      </div>
-    </div>
-
-    <section class="container">
       
-    </section>
-  </main>
+</main>
 
   <footer class="footer  mt-auto py-3"style="background-color: #FFEFCF; color:#ff7a00;">
     <div class="container text-center pt-2">
