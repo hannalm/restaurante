@@ -11,12 +11,14 @@ function autenticar(event){
 
   event.preventDefault()
 
-  if(inputUsuario.value == 'root' && inputSenha.value == '1234'){
+  if(inputUsuario.value !=null && inputSenha.value != null){
     myTextModal.className = 'text-success'
     myTextModal.innerText = 'Reserva enviada!!!'
   }
+  else{ myTextModal.className = 'text-danger'
+  myTextModal.innerText = 'Reserva não efetuada'}
 
   myButtonModal.click()
-  
+
 }
 
